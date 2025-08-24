@@ -1,0 +1,4 @@
+To use this code, first you need to find the top corner of the queen's board. This could be done using the MouseTrack program. Once you know the position of the corner, you'd want to change the pixel values in the four functions in main according to these criteria: 
+Loading) You want the real corner to be input as the x,y cords here, since this function holds the program up until the queen's board shows up.
+boardSize) You should put the coordinates just outside the first column, and you may need to adjust the 410 to reflect the size of the queen's board on your screen. 
+boardColours & clickBoard) For this one, you need to find the size of the board and replace the 400 with the rough size of the board length, and you will also need to put the coordinates of roughly the middle of the top left box in.
